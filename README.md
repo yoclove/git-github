@@ -30,3 +30,16 @@ git push -u origin master
 
 > git push命令可把当前分支master推送到远程，第一次推送时，添加-u参数，不但会把本地master分支的内容推送到远程新的master分支，同时把本地mater和远程mater分支关联起来，以后推送或者克隆时就可以简化命令。
 
+
+# 如何使用
+
+
+#### 本地命令 git init
+#### 本地命令 git add .
+#### 本地命令 git commit -m 'init commit'
+#### github上新建一个repo 生成一下代码
+#### ```javascript
+git remote add origin git@github.com:yoclove/git-github.git
+git push -u origin master
+```
+#### 本地命令粘贴以上代码，之后使用 git push 推送到github
