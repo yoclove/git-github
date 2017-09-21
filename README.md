@@ -22,7 +22,7 @@ root@localhost .ssh]#  ssh-keygen -t rsa -C "8888@gmail.com"
 ssh -T git@github.com
 ```
 
-## 关联第一次推送
+## 关联第一次推送 (下面是在github新建repo后生成的代码)
 ```javascript
 git remote add origin git@github.com:yoclove/git-github.git
 git push -u origin master
