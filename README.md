@@ -38,7 +38,7 @@ git push -u origin master
 #### 本地命令 git add .
 #### 本地命令 git commit -m 'init commit'
 #### github上新建一个repo 生成一下代码
-#### ```javascript
+```javascript
 git remote add origin git@github.com:yoclove/git-github.git
 git push -u origin master
 ```
